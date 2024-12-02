@@ -1,0 +1,22 @@
+PREFIX x3do: <https://www.web3d.org/specifications/X3dOntology4.0#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
+PREFIX ex: <http://kgrc4si.home.kg/virtualhome2kg/instance/>
+
+select DISTINCT ?obj ?obj2 ?size_x1 ?size_y1 ?size_z1 ?center_x1 ?center_y1 ?center_z1 ?size_x2 ?size_y2 ?size_z2 ?center_x2 ?center_y2 ?center_z2 where {
+?state :isStateOf ?obj; :bbox ?shape; :partOf ?situation.
+?obj rdfs:label "desk".
+?shape x3do:bboxSize ?desk_size; x3do:bboxCenter ?desk_center.
+?desk_size rdf:first ?size_x1; rdf:rest/rdf:first ?size_y1; rdf:rest/rdf:rest/rdf:first ?size_z1.
+?desk_center rdf:first ?center_x1; rdf:rest/rdf:first ?center_y1; rdf:rest/rdf:rest/rdf:first ?center_z1.
+
+?state2 :isStateOf ?obj2; :bbox ?shape2; :partOf ?situation.
+?shape2 x3do:bboxSize ?size2; x3do:bboxCenter ?center2.
+?size2 rdf:first ?size_x2; rdf:rest/rdf:first ?size_y2; rdf:rest/rdf:rest/rdf:first ?size_z2.
+?center2 rdf:first ?center_x2; rdf:rest/rdf:first ?center_y2; rdf:rest/rdf:rest/rdf:first ?center_z2.
+
+FILTER((?center_y1+(?size_y1*0.5))<=?center_y2)
+FILTER( ((?center_x1-(?size_x1*0.5))<=(?center_x2+(?size_x2*0.5))) && ((?center_x1+(?size_x1*0.5))>=(?center_x2-(?size_x2*0.5))) )
+FILTER( ((?center_z1-(?size_z1*0.5))<=(?center_z2+(?size_z2*0.5))) && ((?center_z1+(?size_z1*0.5))>=(?center_z2-(?size_z2*0.5))) )
+
+}limit 100

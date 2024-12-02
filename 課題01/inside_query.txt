@@ -1,0 +1,8 @@
+PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
+select ?inside_object ?outside_object where { 
+	?inside_state :isStateOf ?inside_object .
+	?inside_state :bbox ?inside_shape . 
+	?inside_shape :inside ?outside_shape .
+	?outside_state :bbox ?outside_shape . 
+	?outside_state :isStateOf ?outside_object .
+}

@@ -1,0 +1,21 @@
+PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select * where {
+    ?event a :Event .
+    ?action a :Action .
+    ?event :action ?action .
+    ?event (:situationBeforeEvent|:situationAfterEvent) ?situation .
+    # Character Branch
+    ?event :agent ?character .
+    ?charState :isStateOf ?character .
+    ?charState :partOf ?situation .
+    ?charState :bbox ?charShape .
+    # Object Branch
+    ?objState :isStateOf ?object .
+    ?objState :bbox ?objShape .
+    # close relationship
+    ?charShape :close ?objShape .
+    # for labelling
+    ?object rdfs:label ?objlabel .
+}
