@@ -1,0 +1,8 @@
+PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
+select ?upper_object ?lower_object where { 
+	?upper_state :isStateOf ?upper_object .
+	?upper_state :bbox ?upper_shape . 
+	?upper_shape :on ?lower_shape .
+	?lower_state :bbox ?lower_shape . 
+	?lower_state :isStateOf ?lower_object .
+}
