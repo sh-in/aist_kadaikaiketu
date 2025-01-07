@@ -1,0 +1,2591 @@
+['q1_answer_scene2_Day6_kitchen.json', 'q1_answer_scene2_Day6_livingroom.json', 'q1_answer_scene2_Day4_bedroom.json', 'q1_answer_scene1_Day9_bathroom.json', 'q1_answer_scene2_Day9_bedroom.json', 'q1_answer_scene2_Day4_kitchen.json', 'q1_answer_scene1_Day8_livingroom.json', 'q1_answer_scene2_Day2_bedroom.json', 'q1_answer_scene2_Day5_livingroom.json', 'q1_answer_scene1_Day8_bathroom.json', 'q1_answer_scene2_Day7_livingroom.json', 'q1_answer_scene1_Day1_livingroom.json', 'q1_answer_scene1_Day4_livingroom.json', 'q1_answer_scene1_Day2_bathroom.json', 'q1_answer_scene1_Day1_bathroom.json', 'q1_answer_scene1_Day9_bedroom.json', 'q1_answer_scene1_Day7_bedroom.json', 'q1_answer_scene1_Day1_kitchen.json', 'q1_answer_scene1_Day10_kitchen.json', 'q1_answer_scene1_Day8_bedroom.json', 'q1_answer_scene2_Day2_kitchen.json', 'q1_answer_scene2_Day1_bedroom.json', 'q1_answer_scene1_Day5_bedroom.json', 'q1_answer_scene1_Day3_livingroom.json', 'q1_answer_scene1_Day3_kitchen.json', 'q1_answer_scene2_Day6_bedroom.json', 'q1_answer_scene1_Day2_livingroom.json', 'q1_answer_scene2_Day9_kitchen.json', 'q1_answer_scene2_Day7_kitchen.json', 'q1_answer_scene1_Day4_bedroom.json', 'q1_answer_scene2_Day9_livingroom.json', 'q1_answer_scene1_Day2_bedroom.json', 'q1_answer_scene2_Day10_kitchen.json', 'q1_answer_scene2_Day3_kitchen.json', 'q1_answer_scene1_Day7_livingroom.json', 'q1_answer_scene1_Day10_bedroom.json', 'q1_answer_scene1_Day1_bedroom.json', 'q1_answer_scene1_Day5_bathroom.json', 'q1_answer_scene2_Day8_livingroom.json', 'q1_answer_scene2_Day5_bedroom.json', 'q1_answer_scene1_Day6_livingroom.json', 'q1_answer_scene1_Day7_kitchen.json', 'q1_answer_scene2_Day3_bedroom.json', 'q1_answer_scene1_Day6_kitchen.json', 'q1_answer_scene1_Day5_livingroom.json', 'q1_answer_scene2_Day8_bedroom.json', 'q1_answer_scene1_Day8_toilet.json', 'q1_answer_scene1_Day5_kitchen.json', 'q1_answer_scene1_Day7_bathroom.json', 'q1_answer_scene1_Day3_bathroom.json', 'q1_answer_scene2_Day4_livingroom.json', 'q1_answer_scene2_Day2_livingroom.json', 'q1_answer_scene2_Day10_livingroom.json', 'q1_answer_scene1_Day4_bathroom.json', 'q1_answer_scene2_Day3_livingroom.json', 'q1_answer_scene1_Day4_kitchen.json', 'q1_answer_scene1_Day10_livingroom.json', 'q1_answer_scene2_Day5_kitchen.json', 'q1_answer_scene1_Day6_bedroom.json', 'q1_answer_scene2_Day1_livingroom.json', 'q1_answer_scene1_Day6_bathroom.json', 'q1_answer_scene2_Day8_kitchen.json', 'q1_answer_scene1_Day8_kitchen.json', 'q1_answer_scene1_Day9_kitchen.json', 'q1_answer_scene1_Day9_livingroom.json', 'q1_answer_scene2_Day1_kitchen.json', 'q1_answer_scene1_Day3_bedroom.json', 'q1_answer_scene1_Day10_bathroom.json', 'q1_answer_scene1_Day2_kitchen.json', 'q1_answer_scene2_Day10_bedroom.json']
+q1_answer_scene1_Day10_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Squats1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Turn_off_light7
+[('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Drink_milk_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+3
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+3
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+4
+Place_plate1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Have_evening_beverage3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+5
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Clean_desk3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Target room "bathroom" entered 6 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day10_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Squats1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Turn_off_light7
+[('bathroom11_scene1', 'bedroom75_scene1')]
+3
+Drink_milk_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+5
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+5
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+7
+Place_plate1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Have_evening_beverage3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+8
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+9
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+10
+Clean_desk3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+12
+Target room "bedroom" entered 12 times.
+Answer ID: 1, Answer: 14, Correct: True
+Answer ID: 2, Answer: 15, Correct: False
+q1_answer_scene1_Day10_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Squats1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+2
+Turn_off_light7
+[('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Drink_milk_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+6
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+7
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+7
+Place_plate1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Have_evening_beverage3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+8
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+9
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+11
+Clean_desk3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+13
+Target room "kitchen" entered 13 times.
+Answer ID: 1, Answer: 15, Correct: True
+Answer ID: 2, Answer: 16, Correct: False
+q1_answer_scene1_Day10_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Squats1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Turn_off_light7
+[('bathroom11_scene1', 'bedroom75_scene1')]
+1
+Drink_milk_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+4
+Social_media_checks1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+4
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+4
+Place_plate1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Have_evening_beverage3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+4
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Clean_desk3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Target room "livingroom" entered 7 times.
+Answer ID: 1, Answer: 8, Correct: True
+Answer ID: 2, Answer: 9, Correct: False
+q1_answer_scene1_Day1_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Put_slippers_in_closet1
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Walk_with_memory_loss6
+[('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Put_groceries_in_fridge13
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Walk_with_memory_loss5
+[('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Put_groceries_in_fridge21
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Do_homework_on_paper1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Clean_kitchentable1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+4
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Target room "bathroom" entered 4 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene1_Day1_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Put_slippers_in_closet1
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Walk_with_memory_loss6
+[('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Put_groceries_in_fridge13
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Walk_with_memory_loss5
+[('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Put_groceries_in_fridge21
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Do_homework_on_paper1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Clean_kitchentable1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+5
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Target room "bedroom" entered 6 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day1_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Put_slippers_in_closet1
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+0
+Walk_with_memory_loss6
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Put_groceries_in_fridge13
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Walk_with_memory_loss5
+[('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Put_groceries_in_fridge21
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Do_homework_on_paper1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Clean_kitchentable1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+4
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Target room "kitchen" entered 5 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day1_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Put_slippers_in_closet1
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+0
+Walk_with_memory_loss6
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Put_groceries_in_fridge13
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Walk_with_memory_loss5
+[('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Put_groceries_in_fridge21
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Do_homework_on_paper1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Clean_kitchentable1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+2
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Target room "livingroom" entered 3 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene1_Day2_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Cook_fried_bread4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Relax_on_bed1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+2
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+3
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Target room "bathroom" entered 3 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene1_Day2_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Cook_fried_bread4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Relax_on_bed1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+4
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+5
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Target room "bedroom" entered 5 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene1_Day2_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Cook_fried_bread4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+2
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Relax_on_bed1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+4
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+4
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Target room "kitchen" entered 4 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene1_Day2_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Cook_fried_bread4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Relax_on_bed1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+2
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Target room "livingroom" entered 2 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene1_Day3_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+3
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Use_phone3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'livingroom342_scene1')]
+3
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+5
+Cook_potato_using_microwave1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+5
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+5
+Pick_up_dirty_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Place_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Throw_trash3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Do_research_on_computer1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Target room "bathroom" entered 5 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene1_Day3_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+2
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Use_phone3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'livingroom342_scene1')]
+3
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+6
+Cook_potato_using_microwave1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+7
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+7
+Pick_up_dirty_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Place_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Throw_trash3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+8
+Do_research_on_computer1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+8
+Target room "bedroom" entered 8 times.
+Answer ID: 1, Answer: 15, Correct: True
+Answer ID: 2, Answer: 16, Correct: False
+q1_answer_scene1_Day3_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Use_phone3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'livingroom342_scene1')]
+3
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+5
+Cook_potato_using_microwave1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+7
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+7
+Pick_up_dirty_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Place_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Throw_trash3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+9
+Do_research_on_computer1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+9
+Target room "kitchen" entered 9 times.
+Answer ID: 1, Answer: 15, Correct: True
+Answer ID: 2, Answer: 16, Correct: False
+q1_answer_scene1_Day3_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Use_phone3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'livingroom342_scene1')]
+2
+Clean_slippers
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+2
+Cook_potato_using_microwave1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+3
+Rinse_toothbrush1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+3
+Pick_up_dirty_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Place_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Throw_trash3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Read_book1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Do_research_on_computer1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Target room "livingroom" entered 5 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day4_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+3
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+5
+Fall_while_walking_forward1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+6
+Cook_potato_using_stove1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+6
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+6
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+6
+Make_cold_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+6
+Fall_while_standing_and_turning1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Throw_trash2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Target room "bathroom" entered 7 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day4_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+5
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+9
+Fall_while_walking_forward1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+9
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+11
+Cook_potato_using_stove1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+11
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+12
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+12
+Make_cold_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+12
+Fall_while_standing_and_turning1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+12
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+14
+Throw_trash2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+14
+Target room "bedroom" entered 14 times.
+Answer ID: 1, Answer: 14, Correct: True
+Answer ID: 2, Answer: 15, Correct: False
+q1_answer_scene1_Day4_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+5
+Fall_while_walking_forward1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+8
+Cook_potato_using_stove1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+10
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+11
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+11
+Make_cold_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+12
+Fall_while_standing_and_turning1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+12
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+14
+Throw_trash2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+14
+Target room "kitchen" entered 14 times.
+Answer ID: 1, Answer: 12, Correct: True
+Answer ID: 2, Answer: 13, Correct: False
+q1_answer_scene1_Day4_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+0
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+0
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+0
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Go_to_sleep1
+[('bathroom11_scene1', 'bedroom75_scene1')]
+1
+Fall_while_walking_forward1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+3
+Cook_potato_using_stove1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+4
+Make_bed1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Make_cold_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+4
+Fall_while_standing_and_turning1
+[('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Throw_trash2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+6
+Target room "livingroom" entered 6 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene1_Day5_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Turn_on_light6
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Put_away_groceries_from_fridge3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Fall_backward_while_walking_and_turning1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Put_groceries_in_fridge23
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Target room "bathroom" entered 4 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene1_Day5_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Turn_on_light6
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+3
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Put_away_groceries_from_fridge3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+6
+Fall_backward_while_walking_and_turning1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Put_groceries_in_fridge23
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+9
+Target room "bedroom" entered 9 times.
+Answer ID: 1, Answer: 10, Correct: True
+Answer ID: 2, Answer: 11, Correct: False
+q1_answer_scene1_Day5_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Turn_on_light6
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+2
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+5
+Put_away_groceries_from_fridge3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Fall_backward_while_walking_and_turning1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Put_groceries_in_fridge23
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+9
+Target room "kitchen" entered 9 times.
+Answer ID: 1, Answer: 9, Correct: True
+Answer ID: 2, Answer: 10, Correct: False
+q1_answer_scene1_Day5_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Turn_on_light6
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_desk4
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+1
+Drink_milk1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Put_away_groceries_from_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Workout1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Put_away_groceries_from_fridge3
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Fall_backward_while_walking_and_turning1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Put_groceries_in_fridge23
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Target room "livingroom" entered 3 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene1_Day6_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Fold_clothesshirt1
+[(('bedroom75_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bedroom75_scene1'))]
+1
+Set_up_table1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Clean_sofa1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+3
+Put_groceries_in_fridge14
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Eat_cupcake1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Target room "bathroom" entered 3 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene1_Day6_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Fold_clothesshirt1
+[(('bedroom75_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bedroom75_scene1'))]
+0
+Set_up_table1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Clean_sofa1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+3
+Put_groceries_in_fridge14
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Eat_cupcake1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Target room "bedroom" entered 4 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day6_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Fold_clothesshirt1
+[(('bedroom75_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bedroom75_scene1'))]
+0
+Set_up_table1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Clean_sofa1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+3
+Put_groceries_in_fridge14
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Eat_cupcake1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Target room "kitchen" entered 4 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day6_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Fold_clothesshirt1
+[(('bedroom75_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bedroom75_scene1'))]
+0
+Set_up_table1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Clean_sofa1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Put_groceries_in_fridge14
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Eat_cupcake1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Target room "livingroom" entered 2 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene1_Day7_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Drink_water1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Clean_television4
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Drink_juice_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Admire_art1
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+3
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Drink_alcohol1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+3
+Prepare_for_brushing_teeth1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+4
+Brush_teeth1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+5
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+6
+Cook_carrot1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+6
+Use_phone4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+6
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Drink_wine1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+7
+Target room "bathroom" entered 7 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day7_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Drink_water1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Clean_television4
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Drink_juice_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Admire_art1
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+6
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+6
+Drink_alcohol1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+6
+Prepare_for_brushing_teeth1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+7
+Brush_teeth1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+8
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+11
+Cook_carrot1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+11
+Use_phone4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+11
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+13
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+13
+Drink_wine1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+13
+Target room "bedroom" entered 13 times.
+Answer ID: 1, Answer: 13, Correct: True
+Answer ID: 2, Answer: 14, Correct: False
+q1_answer_scene1_Day7_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Drink_water1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Clean_television4
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Drink_juice_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Admire_art1
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+7
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Drink_alcohol1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+8
+Prepare_for_brushing_teeth1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+8
+Brush_teeth1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+8
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+10
+Cook_carrot1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+11
+Use_phone4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+12
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+13
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+13
+Drink_wine1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+14
+Target room "kitchen" entered 14 times.
+Answer ID: 1, Answer: 16, Correct: True
+Answer ID: 2, Answer: 17, Correct: False
+q1_answer_scene1_Day7_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Drink_water1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+0
+Clean_television4
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Drink_juice_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Admire_art1
+[('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Turn_off_light8
+[('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1')]
+4
+Clean_fridge1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+4
+Drink_alcohol1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+4
+Prepare_for_brushing_teeth1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+4
+Brush_teeth1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+4
+Clear_table1
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Cook_carrot1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+5
+Use_phone4
+[('livingroom342_scene1', 'kitchen209_scene1')]
+6
+Shoulder_stretch1
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+7
+Drink_wine1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+7
+Target room "livingroom" entered 7 times.
+Answer ID: 1, Answer: 9, Correct: True
+Answer ID: 2, Answer: 10, Correct: False
+q1_answer_scene1_Day8_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_stove1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Turn_off_light6
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+1
+Hand_washing1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+1
+Watch_television3
+[('kitchen209_scene1', 'livingroom342_scene1'), ('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+2
+Put_groceries_in_fridge22
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+3
+Clean_sink4
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+3
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Target room "bathroom" entered 5 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene1_Day8_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_stove1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Turn_off_light6
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+2
+Hand_washing1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+2
+Watch_television3
+[('kitchen209_scene1', 'livingroom342_scene1'), ('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+3
+Put_groceries_in_fridge22
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+6
+Clean_sink4
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+6
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+7
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+9
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+11
+Target room "bedroom" entered 11 times.
+Answer ID: 1, Answer: 12, Correct: True
+Answer ID: 2, Answer: 13, Correct: False
+q1_answer_scene1_Day8_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_stove1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Turn_off_light6
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+2
+Hand_washing1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+2
+Watch_television3
+[('kitchen209_scene1', 'livingroom342_scene1'), ('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+3
+Put_groceries_in_fridge22
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+5
+Clean_sink4
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+5
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+8
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+10
+Target room "kitchen" entered 10 times.
+Answer ID: 1, Answer: 12, Correct: True
+Answer ID: 2, Answer: 13, Correct: False
+q1_answer_scene1_Day8_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Clean_stove1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Turn_off_light6
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+1
+Hand_washing1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+1
+Watch_television3
+[('kitchen209_scene1', 'livingroom342_scene1'), ('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+2
+Put_groceries_in_fridge22
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Clean_sink4
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+3
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Target room "livingroom" entered 4 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene1_Day8_toilet.json
+====================================================
+Question: How many times did he enter the toilet?, Target: toilet
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Relax_on_sofa_while_watching_television3
+[('kitchen209_scene1', 'livingroom342_scene1')]
+0
+Clean_stove1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Pick_up_dirty_knife1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Put_away_groceries_from_fridge2
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Pick_up_dirty_fork1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Turn_off_light6
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1')]
+0
+Hand_washing1
+[(('bathroom11_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bathroom11_scene1'))]
+0
+Watch_television3
+[('kitchen209_scene1', 'livingroom342_scene1'), ('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Put_groceries_in_fridge22
+[('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+0
+Clean_sink4
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+0
+Have_morning_beverage3
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+0
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+0
+Turn_on_light5
+[('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1')]
+0
+Target room "toilet" entered 0 times.
+Answer ID: 1, Answer: 1, Correct: True
+Answer ID: 2, Answer: 2, Correct: False
+q1_answer_scene1_Day9_bathroom.json
+====================================================
+Question: How many times did he enter the bathroom?, Target: bathroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+1
+Drink_alcohol_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Make_hot_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Fall_while_during_getting_up_or_rising1
+[('kitchen209_scene1', 'bedroom75_scene1')]
+1
+Drink_juice1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+1
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Target room "bathroom" entered 2 times.
+Answer ID: 1, Answer: 1, Correct: True
+Answer ID: 2, Answer: 2, Correct: False
+q1_answer_scene1_Day9_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Drink_alcohol_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+1
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+1
+Make_hot_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+1
+Fall_while_during_getting_up_or_rising1
+[('kitchen209_scene1', 'bedroom75_scene1')]
+2
+Drink_juice1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Target room "bedroom" entered 4 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene1_Day9_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Drink_alcohol_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Make_hot_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+3
+Fall_while_during_getting_up_or_rising1
+[('kitchen209_scene1', 'bedroom75_scene1')]
+3
+Drink_juice1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+4
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+6
+Target room "kitchen" entered 6 times.
+Answer ID: 1, Answer: 7, Correct: True
+Answer ID: 2, Answer: 8, Correct: False
+q1_answer_scene1_Day9_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Get_out_of_bed1
+[('bedroom75_scene1', 'bathroom11_scene1')]
+0
+Drink_alcohol_while_watching_television3
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+2
+Place_wineglass1
+[(('kitchen209_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'kitchen209_scene1'))]
+2
+Make_hot_cereal1
+[('livingroom342_scene1', 'kitchen209_scene1')]
+2
+Fall_while_during_getting_up_or_rising1
+[('kitchen209_scene1', 'bedroom75_scene1')]
+2
+Drink_juice1
+[('bedroom75_scene1', 'kitchen209_scene1')]
+2
+Clean_livingroom1
+[('livingroom342_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'bathroom11_scene1'), ('bathroom11_scene1', 'bedroom75_scene1'), ('bedroom75_scene1', 'kitchen209_scene1'), ('kitchen209_scene1', 'livingroom342_scene1')]
+4
+Target room "livingroom" entered 4 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene2_Day10_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Fall_while_walking_forward1
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Drink_alcohol_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Target room "bedroom" entered 0 times.
+Answer ID: 1, Answer: 1, Correct: True
+Answer ID: 2, Answer: 2, Correct: False
+q1_answer_scene2_Day10_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Fall_while_walking_forward1
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+4
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+4
+Drink_alcohol_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+5
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+6
+Target room "kitchen" entered 6 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene2_Day10_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Fall_while_walking_forward1
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Drink_alcohol_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+4
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+5
+Target room "livingroom" entered 5 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene2_Day1_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Use_phone3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'bedroom197_scene2'), ('bedroom197_scene2', 'livingroom274_scene2')]
+1
+Drink_milk_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Clean_stove1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Make_cold_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Fall_while_walking_forward1
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Target room "bedroom" entered 2 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene2_Day1_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Use_phone3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'bedroom197_scene2'), ('bedroom197_scene2', 'livingroom274_scene2')]
+2
+Drink_milk_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Clean_stove1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+4
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+4
+Make_cold_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+5
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+6
+Fall_while_walking_forward1
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+7
+Target room "kitchen" entered 7 times.
+Answer ID: 1, Answer: 10, Correct: True
+Answer ID: 2, Answer: 11, Correct: False
+q1_answer_scene2_Day1_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Use_phone3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'bedroom197_scene2'), ('bedroom197_scene2', 'livingroom274_scene2')]
+1
+Drink_milk_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Clean_stove1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Make_cold_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+3
+Fall_while_walking_forward1
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+5
+Target room "livingroom" entered 5 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene2_Day2_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Cook_fried_bread4
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Eat_bread_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Cook_potato_using_stove1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Do_work_on_computer1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Target room "bedroom" entered 1 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene2_Day2_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Cook_fried_bread4
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Eat_bread_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Cook_potato_using_stove1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+4
+Do_work_on_computer1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+4
+Target room "kitchen" entered 4 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene2_Day2_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Cook_fried_bread4
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Eat_bread_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Cook_potato_using_stove1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Do_work_on_computer1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Target room "livingroom" entered 2 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene2_Day3_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Drink_milk1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Relax_on_sofa1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Put_groceries_in_fridge18
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Put_groceries_in_fridge18
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Use_phone4
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Put_away_groceries_from_fridge1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Pick_up_dirty_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Target room "bedroom" entered 1 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene2_Day3_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Drink_milk1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Relax_on_sofa1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Put_groceries_in_fridge18
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Put_groceries_in_fridge18
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+3
+Use_phone4
+[('livingroom274_scene2', 'kitchen51_scene2')]
+4
+Put_away_groceries_from_fridge1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+4
+Pick_up_dirty_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+4
+Target room "kitchen" entered 4 times.
+Answer ID: 1, Answer: 6, Correct: True
+Answer ID: 2, Answer: 7, Correct: False
+q1_answer_scene2_Day3_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Drink_milk1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Relax_on_sofa1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Put_groceries_in_fridge18
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Put_groceries_in_fridge18
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Use_phone4
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Put_away_groceries_from_fridge1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Pick_up_dirty_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Target room "livingroom" entered 2 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene2_Day4_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Put_groceries_in_fridge21
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Put_groceries_in_fridge17
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Turn_on_light6
+[('bedroom197_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Place_knife1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Walk_with_memory_loss7
+[('kitchen51_scene2', 'bedroom197_scene2')]
+2
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+3
+Cook_potato_using_stove1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Fall_while_standing_quietly1
+[(('livingroom274_scene2', 'livingroom274_scene2'), ('livingroom274_scene2', 'livingroom274_scene2'))]
+3
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Target room "bedroom" entered 3 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene2_Day4_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Put_groceries_in_fridge21
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Put_groceries_in_fridge17
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Turn_on_light6
+[('bedroom197_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Place_knife1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Walk_with_memory_loss7
+[('kitchen51_scene2', 'bedroom197_scene2')]
+2
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+4
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+5
+Cook_potato_using_stove1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+6
+Fall_while_standing_quietly1
+[(('livingroom274_scene2', 'livingroom274_scene2'), ('livingroom274_scene2', 'livingroom274_scene2'))]
+6
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+7
+Target room "kitchen" entered 7 times.
+Answer ID: 1, Answer: 8, Correct: True
+Answer ID: 2, Answer: 9, Correct: False
+q1_answer_scene2_Day4_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Put_groceries_in_fridge21
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Put_groceries_in_fridge17
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Turn_on_light6
+[('bedroom197_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Place_knife1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Walk_with_memory_loss7
+[('kitchen51_scene2', 'bedroom197_scene2')]
+1
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Drink_juice1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Cook_potato_using_stove1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Fall_while_standing_quietly1
+[(('livingroom274_scene2', 'livingroom274_scene2'), ('livingroom274_scene2', 'livingroom274_scene2'))]
+3
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Target room "livingroom" entered 3 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene2_Day5_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Cook_potato_using_microwave1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Do_research_on_computer1
+[('kitchen51_scene2', 'bedroom197_scene2')]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Put_groceries_in_fridge16
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Clean_fridge1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Admire_art2
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Target room "bedroom" entered 1 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene2_Day5_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Cook_potato_using_microwave1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Do_research_on_computer1
+[('kitchen51_scene2', 'bedroom197_scene2')]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Put_groceries_in_fridge16
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Clean_fridge1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Admire_art2
+[('bedroom197_scene2', 'kitchen51_scene2')]
+4
+Target room "kitchen" entered 4 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene2_Day5_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Cook_potato_using_microwave1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Do_research_on_computer1
+[('kitchen51_scene2', 'bedroom197_scene2')]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Put_groceries_in_fridge16
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Clean_fridge1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Admire_art2
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Target room "livingroom" entered 1 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene2_Day6_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Eat_cupcake_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Read_book1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Fall_while_initiation_of_walking2
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Throw_trash2
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Clean_stove1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Fall_while_standing_quietly1
+[(('livingroom274_scene2', 'livingroom274_scene2'), ('livingroom274_scene2', 'livingroom274_scene2'))]
+0
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+0
+Target room "bedroom" entered 0 times.
+Answer ID: 1, Answer: 1, Correct: True
+Answer ID: 2, Answer: 2, Correct: False
+q1_answer_scene2_Day6_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Eat_cupcake_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Read_book1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Fall_while_initiation_of_walking2
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Throw_trash2
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Clean_stove1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Fall_while_standing_quietly1
+[(('livingroom274_scene2', 'livingroom274_scene2'), ('livingroom274_scene2', 'livingroom274_scene2'))]
+3
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+4
+Target room "kitchen" entered 4 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene2_Day6_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Eat_cupcake_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Read_book1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Fall_while_initiation_of_walking2
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Place_wineglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Throw_trash2
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Clean_stove1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Fall_while_standing_quietly1
+[(('livingroom274_scene2', 'livingroom274_scene2'), ('livingroom274_scene2', 'livingroom274_scene2'))]
+2
+Walk_with_memory_loss5
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Target room "livingroom" entered 2 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene2_Day7_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Eat_bread_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Cook_salmon1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+2
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Relax_on_sofa1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Target room "kitchen" entered 3 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene2_Day7_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Eat_bread_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Cook_salmon1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Make_hot_cereal1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Place_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Relax_on_sofa1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Target room "livingroom" entered 2 times.
+Answer ID: 1, Answer: 4, Correct: True
+Answer ID: 2, Answer: 5, Correct: False
+q1_answer_scene2_Day8_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Fall_while_standing_and_turning1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Put_away_groceries_from_fridge3
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+0
+Social_media_checks1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Pick_up_dirty_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Drink_water1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Target room "bedroom" entered 1 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene2_Day8_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Fall_while_standing_and_turning1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Put_away_groceries_from_fridge3
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+0
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Social_media_checks1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+2
+Pick_up_dirty_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+2
+Drink_water1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+3
+Target room "kitchen" entered 3 times.
+Answer ID: 1, Answer: 5, Correct: True
+Answer ID: 2, Answer: 6, Correct: False
+q1_answer_scene2_Day8_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Fall_while_standing_and_turning1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Put_away_groceries_from_fridge3
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+1
+Social_media_checks1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Pick_up_dirty_waterglass1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+1
+Drink_water1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Target room "livingroom" entered 1 times.
+Answer ID: 1, Answer: 2, Correct: True
+Answer ID: 2, Answer: 3, Correct: False
+q1_answer_scene2_Day9_bedroom.json
+====================================================
+Question: How many times did he enter the bedroom?, Target: bedroom
+Drink_juice_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+0
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Turn_on_light6
+[('bedroom197_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Do_research_on_computer1
+[('kitchen51_scene2', 'bedroom197_scene2')]
+3
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Relax_on_sofa_while_watching_television3
+[('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Do_work_on_computer1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Fall_while_standing_and_turning1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Walk_with_memory_loss6
+[('kitchen51_scene2', 'livingroom274_scene2')]
+3
+Place_wine1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+3
+Target room "bedroom" entered 3 times.
+Answer ID: 1, Answer: 3, Correct: True
+Answer ID: 2, Answer: 4, Correct: False
+q1_answer_scene2_Day9_kitchen.json
+====================================================
+Question: How many times did he enter the kitchen?, Target: kitchen
+Drink_juice_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+3
+Turn_on_light6
+[('bedroom197_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+4
+Do_research_on_computer1
+[('kitchen51_scene2', 'bedroom197_scene2')]
+5
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+7
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+8
+Relax_on_sofa_while_watching_television3
+[('kitchen51_scene2', 'livingroom274_scene2')]
+8
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+9
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+9
+Do_work_on_computer1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+9
+Fall_while_standing_and_turning1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+9
+Walk_with_memory_loss6
+[('kitchen51_scene2', 'livingroom274_scene2')]
+10
+Place_wine1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+10
+Target room "kitchen" entered 10 times.
+Answer ID: 1, Answer: 11, Correct: True
+Answer ID: 2, Answer: 12, Correct: False
+q1_answer_scene2_Day9_livingroom.json
+====================================================
+Question: How many times did he enter the livingroom?, Target: livingroom
+Drink_juice_while_watching_television3
+[('livingroom274_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+1
+Make_bed1
+[('bedroom197_scene2', 'kitchen51_scene2')]
+1
+Turn_on_light6
+[('bedroom197_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'livingroom274_scene2')]
+2
+Do_research_on_computer1
+[('kitchen51_scene2', 'bedroom197_scene2')]
+2
+Cook_carrot1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+3
+Drink_wine1
+[('livingroom274_scene2', 'kitchen51_scene2')]
+4
+Relax_on_sofa_while_watching_television3
+[('kitchen51_scene2', 'livingroom274_scene2')]
+5
+Turn_off_light5
+[('kitchen51_scene2', 'livingroom274_scene2')]
+6
+Set_up_table1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+6
+Do_work_on_computer1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+6
+Fall_while_standing_and_turning1
+[('kitchen51_scene2', 'livingroom274_scene2')]
+7
+Walk_with_memory_loss6
+[('kitchen51_scene2', 'livingroom274_scene2')]
+8
+Place_wine1
+[(('kitchen51_scene2', 'kitchen51_scene2'), ('kitchen51_scene2', 'kitchen51_scene2'))]
+8
+Target room "livingroom" entered 8 times.
+Answer ID: 1, Answer: 8, Correct: True
+Answer ID: 2, Answer: 9, Correct: False
+Accuracy: 19/70 = 0.2714285714285714
