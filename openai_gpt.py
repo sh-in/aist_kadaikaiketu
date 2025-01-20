@@ -7,6 +7,7 @@ import os
 import argparse
 import cv2
 
+
 # room: kitchen, bedroom, bathroom, livingroom
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
@@ -15,10 +16,10 @@ def encode_image(image_path):
 def get_room(project_path: Path,image_path: Path,scene: str, activity: str):
     # client = OpenAI(api_key=os.environ.get('API_KEY', None))
     client = OpenAI(api_key=API_KEY)
-    base64_image_1 = encode_image(image_path= project_path / Path(f"method/prompt_images/{scene}/kitchen.png"))
-    base64_image_2 = encode_image(image_path= project_path / Path(f"method/prompt_images/{scene}/bedroom.png"))
-    base64_image_3 = encode_image(image_path= project_path / Path(f"method/prompt_images/{scene}/bathroom.png"))
-    base64_image_4 = encode_image(image_path= project_path / Path(f"method/prompt_images/{scene}/livingroom.png"))
+    base64_image_1 = encode_image(image_path= project_path / Path(f"methods/prompt_images/{scene}/kitchen.png"))
+    base64_image_2 = encode_image(image_path= project_path / Path(f"methods/prompt_images/{scene}/bedroom.png"))
+    base64_image_3 = encode_image(image_path= project_path / Path(f"methods/prompt_images/{scene}/bathroom.png"))
+    base64_image_4 = encode_image(image_path= project_path / Path(f"methods/prompt_images/{scene}/livingroom.png"))
     base64_image_test = encode_image(image_path=image_path)
     query = [
     {
@@ -199,14 +200,18 @@ def get_action(project_path: Path,image_path: Path,scene: str, activity: str, ac
 def call_openai_api(PROJECT_PATH:Path, scene:str, activity:str, file_dict:dict, j:int, time:float, duration:float, mode:str="room", action_list=None, qa_num=None):
     # 動画のパス
     MOVIE_PATH = PROJECT_PATH / Path("data/Movie")
-    # 画像/動画/記述のパス
-    video_path = file_dict[activity.replace("_"," ") + "_3" + "_" + scene]
-    # activity_#event_3
-    img_path = PROJECT_PATH / Path(f"data/imgs/{activity}_{j}_3_{scene}.png")
     if mode == "room":
+        # 画像/動画/記述のパス
+        video_path = file_dict[activity.replace("_"," ") + "_3" + "_" + scene]
+        # activity_#event_3
+        img_path = PROJECT_PATH / Path(f"data/imgs/{activity}_{j}_3_{scene}.png")
         text_path = PROJECT_PATH / Path(f"data/places/{activity}_{j}_3_{scene}.txt")
     elif mode == "action":
-        text_path = PROJECT_PATH / Path(f"data/actions/{activity}_{j}_3_{scene}.txt")
+        # 画像/動画/記述のパス
+        video_path = file_dict[activity.replace("_"," ") + "_2" + "_" + scene]
+        # activity_#event_2
+        img_path = PROJECT_PATH / Path(f"data/imgs/{activity}_{j}_2_{scene}.png")
+        text_path = PROJECT_PATH / Path(f"data/actions/{activity}_{j}_2_{scene}.txt")
     # 画像ディレクトリの確認
     if not os.path.exists(PROJECT_PATH/Path("data/imgs")):
         os.makedirs(PROJECT_PATH/Path("data/imgs"), exist_ok=True)
@@ -220,7 +225,7 @@ def call_openai_api(PROJECT_PATH:Path, scene:str, activity:str, file_dict:dict, 
         # 動画から画像を生成
         cap = cv2.VideoCapture(video_path)
         fps = cap.get(cv2.CAP_PROP_FPS)
-        cap.set(cv2.CAP_PROP_POS_FRAMES, round((time+(duration/2))*fps))
+        cap.set(cv2.CAP_PROP_POS_FRAMES, round((time+(duration*0.7))*fps))
         ret, frame = cap.read()
         if ret:
             cv2.imwrite(img_path, frame)
@@ -245,58 +250,3 @@ def call_openai_api(PROJECT_PATH:Path, scene:str, activity:str, file_dict:dict, 
             with open(text_path, "r", encoding="utf-8") as f:
                 action = f.read()
         return video_path, action
-
-    # with open(MOVIE_PATH / "label" / "label.json", 'r') as f:
-    #     label_json = json.load(f)
-        
-    # for scene_path in reversed(list((MOVIE_PATH / "converted").iterdir())):
-    #     tmp_scene = scene_path.name
-    #     if tmp_scene != "scene2":
-    #         continue
-    #     if label_json.get(tmp_scene,None) == None:
-    #         label_json[tmp_scene] = {}
-
-    #     for activity_path in sorted(scene_path.iterdir()):
-    #         tmp_activity = activity_path.name
-    #         if label_json.get(tmp_scene,{}).get(tmp_activity,None) == None:
-    #             label_json[tmp_scene][tmp_activity] = {}
-    #         if "_0" in str(tmp_activity):
-    #             for png_path in activity_path.iterdir():
-    #                 tmp_png = png_path.stem
-                    
-    #                 if label_json[tmp_scene][tmp_activity].get(tmp_png,None) == None or label_json[tmp_scene][tmp_activity].get(tmp_png,None) == {}:
-    #                     label_json[tmp_scene][tmp_activity][tmp_png] = {}
-    #                     #try: 
-    #                     room = get_room(PROJECT_PATH, png_path,scene=tmp_scene)
-    #                     print("room:", room)
-    #                     """
-    #                     except:
-    #                         room = "error"
-    #                         print("gpt-4o-mini error")
-    #                     """
-    #                     if room in ["bedroom","bathroom","kitchen","livingroom"]:
-    #                         label_json[tmp_scene][tmp_activity][tmp_png] = room
-    #                         print("room:", label_json[tmp_scene][tmp_activity][tmp_png])
-    #                     elif "bedroom" in room:
-    #                         label_json[tmp_scene][tmp_activity][tmp_png] = "bedroom"
-    #                         print("room:", label_json[tmp_scene][tmp_activity][tmp_png])
-    #                     elif "bathroom" in room:
-    #                         label_json[tmp_scene][tmp_activity][tmp_png] = "bathroom"
-    #                         print("room:", label_json[tmp_scene][tmp_activity][tmp_png])
-    #                     elif "kitchen" in room:
-    #                         label_json[tmp_scene][tmp_activity][tmp_png] = "kitchen"
-    #                         print("room:", label_json[tmp_scene][tmp_activity][tmp_png])
-    #                     elif "livingroom" in room:
-    #                         label_json[tmp_scene][tmp_activity][tmp_png] = "livingroom"
-    #                         print("room:", label_json[tmp_scene][tmp_activity][tmp_png])
-    #                     else:
-    #                         print("error room:", room)
-    #                         print("png_path:", png_path)
-                            
-    #                     with open(MOVIE_PATH / "label" / "label.json", 'w') as f:
-    #                         json.dump(label_json, f, indent=4)
-        
-    # with open(MOVIE_PATH / "label" / "label.json", 'w') as f:
-    #     json.dump(label_json, f, indent=4)
-    
-    

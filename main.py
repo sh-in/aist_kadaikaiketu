@@ -63,9 +63,9 @@ def main(args, PROJECT_PATH):
         question_path = PROJECT_PATH / Path(f"DataSet/QA/{qa_type}/{qa_num}")
     
     # activityと動画の対応リスト取得
-    file_dict = read_file_list(PROJECT_PATH / Path("method/mp4_files_list.txt"))
+    file_dict = read_file_list(PROJECT_PATH / Path("methods/mp4_files_list.txt"))
     # actionのリスト取得
-    action_list = pd.read_csv(PROJECT_PATH / Path("method/action_list.csv"), header=None)
+    action_list = pd.read_csv(PROJECT_PATH / Path("methods/action_list.csv"), header=None)
     action_list = action_list[0].tolist()
 
     accuracy = 0
@@ -82,22 +82,41 @@ def main(args, PROJECT_PATH):
         # 正規表現のコンパイル
         # QAの種類によって変更する必要あり
         if qa_num == "3":
-            regex = re.compile(r"What did he do after he first entered the ([a-z]+)")
+            if qa_type == "MultiChoice":
+                regex = re.compile(r"What did he do after he first entered the ([a-z]+)")
+            elif qa_type == "YesNo":
+                regex = re.compile(r"Did he ([a-zA-Z]+)")
         elif qa_num == "4":
             regex = re.compile(r"What did he do just before he first entered the ([a-z]+)")
         # 前処理
         senario, question, answer, activities, target_place, scene, day = pre_process_question(question_file, regex)
         # senario, question, answer, activities, place, scene, day, answer_number = pre_process_question(question_file)
         if qa_num == "3":
-            # Q3: kitchenに入った直後に何をしたか
-            action_label, video_path, accuracy = q3.q3(PROJECT_PATH, activities, answer, target_place, scene, accuracy, file_dict, action_list)
-            print("accuracy:", accuracy/total)
-            predictions.append(action_label)
-            answers.append(answer)
-            video_paths.append(video_path)
-            # 20回の試行で、GPTによる補完なしで60%の精度を達成
-            # 20回の試行で、GPTによる補完あり(place)で55%の精度を達成
-            # 20回の試行で、GPTによる補完あり(place, action)で50%の精度を達成
+            if qa_type == "MultiChoice":
+                # Q3: kitchenに入った直後に何をしたか
+                action_label, video_path, accuracy = q3.q3(PROJECT_PATH, activities, answer, target_place, scene, accuracy, file_dict, action_list)
+                print("accuracy:", accuracy/total)
+                predictions.append(action_label)
+                answers.append(answer)
+                video_paths.append(video_path)
+                # 20回の試行で、GPTによる補完なしで60%の精度を達成
+                # 20回の試行で、GPTによる補完あり(place)で55%の精度を達成
+                # 20回の試行で、GPTによる補完あり(place, action)で50%の精度を達成
+                # 20回の試行で、GPTによる補完有(place, action)でfirst, last placeを取得、55%の精度を達成
+            elif qa_type == "YesNo":
+                action = target_place
+                target_place = "kitchen"
+                action_label, video_path, _ = q3.q3(PROJECT_PATH, activities, action, target_place, scene, accuracy, file_dict, action_list)
+                if action == action_label.upper() and answer == "Yes":
+                    accuracy += 1
+                elif action != action_label.upper() and answer == "No":
+                    accuracy += 1
+
+                print("accuracy:", accuracy/total)
+                predictions.append(action_label)
+                answers.append(answer)
+                video_paths.append(video_path)
+                # %の精度を達成
         elif qa_num == "4":
             # Q4: kitchenに入る直前に何をしたか
             action_label, video_path, accuracy = q4.q4(PROJECT_PATH, activities, answer, target_place, scene, accuracy, file_dict, action_list, qa_num)
@@ -108,6 +127,7 @@ def main(args, PROJECT_PATH):
             # 10回の試行で、GPTによる補完なしで30%の精度を達成
             # 20回の試行で、GPTによる補完なしで65%の精度を達成
             # 20回の試行で、GPTによる補完あり(place, action)で65%の精度を達成
+            # 20回の試行で、GPTによる補完有(place, action)last placeを取得、65%の精度を達成
         elif qa_num == "5":
             # Q5: ある時間帯で何をしたか
             pass
@@ -115,7 +135,7 @@ def main(args, PROJECT_PATH):
             break
     print("Final Accuracy:", accuracy/total)
     ouptut_df = pd.DataFrame({"questions": questions, "video path": video_paths, "answers": answers, "predictions": predictions})
-    ouptut_df.to_csv(PROJECT_PATH / Path(f"method/outputs/{qa_type}_Q{qa_num}_output.csv"), index=False)
+    ouptut_df.to_csv(PROJECT_PATH / Path(f"methods/outputs/{qa_type}_Q{qa_num}_output.csv"), index=False)
 
 
 if __name__ == '__main__':
