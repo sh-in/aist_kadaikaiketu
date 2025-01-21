@@ -14,14 +14,16 @@ def dijkstra_(graph, start, goal):
         for next_node, weight in graph.get(node, []):
             if next_node not in seen:
                 heapq.heappush(queue, (cost + weight, next_node, path))
-    return []
+    raise ValueError(f"No path found {start} => {goal}")
+    # return []
 
 
 
-def count_teleport(start_node, goal_node, scene, target):
+def count_teleport(start_node, goal_node, scene, target): # idが不明の部屋については部屋名+scene_idをとりあえず入力
     if scene == 1:
         graph = {
-            'bathroom11_scene1': [('bedroom75_scene1', 1)],
+            'bathroom11_scene1': [('bedroom75_scene1', 1), ('toilet46_scene1', 1)],
+            'toilet46_scene1': [('bathroom11_scene1', 1)],
             'bedroom75_scene1': [('bathroom11_scene1', 1), ('kitchen209_scene1', 1)],
             'kitchen209_scene1': [('bedroom75_scene1', 1), ('livingroom342_scene1', 1)],
             'livingroom342_scene1': [('kitchen209_scene1', 1)]
@@ -29,12 +31,58 @@ def count_teleport(start_node, goal_node, scene, target):
     elif scene == 2:
         graph = {
             'livingroom274_scene2': [('kitchen51_scene2', 1)],
-            'kitchen51_scene2': [('livingroom274_scene2', 1), ('bedroom197_scene2', 1)],
-            'bedroom197_scene2': [('kitchen51_scene2', 1)]
+            'kitchen51_scene2': [('livingroom274_scene2', 1), ('bedroom197_scene2', 1), ('bathroom11_scene2', 1)],
+            'bedroom197_scene2': [('kitchen51_scene2', 1)],
+            'bathroom11_scene2': [('kitchen51_scene2', 1), ('toilet_scene2', 1)],
+            'toilet_scene2': [('bathroom11_scene2', 1)]
+        }
+    elif scene == 3:
+        graph = {
+            'bedroom_scene3': [('livingroom194_scene3', 1)],
+            'livingroom194_scene3': [('bedroom_scene3', 1), ('kitchen11_scene3', 1)],
+            'kitchen11_scene3': [('livingroom194_scene3', 1), ('bedroom358_scene3', 1)],
+            'bedroom358_scene3': [('kitchen11_scene3', 1), ('bathroom297_scene3', 1)],
+            'bathroom297_scene3': [('bedroom358_scene3', 1), ('toilet333_scene3', 1)],
+            'toilet333_scene3': [('bathroom297_scene3', 1)]
+        }
+    elif scene == 4:
+        graph = {
+            'toilet193_scene4': [('bathroom177_scene4', 1)],
+            'bathroom177_scene4': [('toilet193_scene4', 1), ('kitchen11_scene4', 1)],
+            'kitchen11_scene4': [('bathroom177_scene4', 1), ('bedroom216_scene4', 1)],
+            'bedroom216_scene4': [('kitchen11_scene4', 1), ('livingroom274_scene4', 1)],
+            'livingroom274_scene4': [('bedroom216_scene4', 1)]
+        }
+    elif scene == 5:
+        graph = {
+            'toilet315_scene5': [('bathroom295_scene5', 1)],
+            'bathroom295_scene5': [('toilet315_scene5', 1), ('livingroom11_scene5', 1)],
+            'livingroom11_scene5': [('bathroom295_scene5', 1), ('kitchen112_scene5', 1)],
+            'kitchen112_scene5': [('livingroom11_scene5', 1), ('bedroom231_scene5', 1)],
+            'bedroom231_scene5': [('kitchen112_scene5', 1)]
+        }
+    elif scene == 6:
+        graph = {
+            'kitchen161_scene6': [('bedroom70_scene6', 1)],
+            'bedroom70_scene6': [('kitchen161_scene6', 1), ('livingroom260_scene6', 1), ('bathroom11_scene6', 1)],
+            'livingroom260_scene6': [('bedroom70_scene6', 1)],
+            'bathroom11_scene6': [('bedroom70_scene6', 1), ('toilet46_scene6', 1)],
+            'toilet46_scene6': [('bathroom11_scene6', 1)]
+        }
+    elif scene == 7:
+        graph = {
+            'bedroom_scene7': [('kitchen56_scene7', 1)],
+            'kitchen56_scene7': [('bedroom_scene7', 1), ('bathroom11_scene7', 1), ('livingroom205_scene7', 1)],
+            'bathroom11_scene7': [('kitchen56_scene7', 1), ('toilet_scene7', 1)],
+            'toilet_scene7': [('bathroom11_scene7', 1)],
+            'livingroom205_scene7': [('kitchen56_scene7', 1)]
         }
     else: 
         raise NotImplementedError('Not implemented yet')
 
+    # 初回の推論では、回数のカウントが不要なため、0を返す
+    if start_node is None:
+        return 0
     shortest_path = dijkstra_(graph, start_node, goal_node)
     for room in shortest_path[1:]:
         if target in room: # 例: kitchen in kitchen209_scene1
