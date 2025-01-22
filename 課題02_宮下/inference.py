@@ -1,6 +1,5 @@
 from q1_solver import Q1Solver
 from q2_solver import Q2Solver
-from q5_solver import Q5Solver  # Add this import
 import os
 import argparse
 
@@ -13,8 +12,6 @@ def list_questions(question):
         directory = '../Knowledge-Graph-Reasoning-Challenge/DataSet/QA/MultiChoice/Q2/'
     elif question == 'q2yesno':
         directory = '../Knowledge-Graph-Reasoning-Challenge/DataSet/QA/YesNo/Q2/'
-    elif question == 'q5':
-        directory = '../Knowledge-Graph-Reasoning-Challenge/DataSet/QA/MultiChoice/Q5/'  # Update directory path
     else:
         raise ValueError(f'Invalid question type: {question}')
     questions = []
@@ -38,9 +35,7 @@ def main():
         q1s = Q1Solver('mp4_files_list.txt', qtype=args.question, use_gpt=args.use_gpt, completedata=args.completedata)
     elif args.question in ['q2mult', 'q2yesno']:
         q2s = Q2Solver('mp4_files_list.txt', qtype=args.question, use_gpt=args.use_gpt, completedata=args.completedata)
-    elif args.question == 'q5':
-        q5s = Q5Solver('mp4_files_list.txt', qtype=args.question, use_gpt=args.use_gpt, completedata=args.completedata)  # Add this case
-
+    
     questions = list_questions(args.question)
     questions.sort()
     correct = 0
@@ -76,16 +71,6 @@ def main():
         for question in questions[:50]:
             print(question)
             is_correct = q2s.solve(question)
-            if is_correct:
-                correct += 1
-            total += 1
-        print(f'Accuracy: {correct}/{total} = {correct/total}')
-    elif args.question == 'q5':
-        for question in questions[:50]:
-            print(question)
-            is_correct = q5s.solve(question)
-            if is_correct is None:
-                continue
             if is_correct:
                 correct += 1
             total += 1
