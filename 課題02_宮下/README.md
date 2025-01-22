@@ -48,6 +48,6 @@ mp4_files_list.txtが必要で、`python prepare_room_image.py`
 inference.pyは50問だけ解くように制限されているので、全問題に対して評価する場合は適宜修正してください。
 
 ## 分析
-inference.pyを実行すると`./outputs/{question}_{Complete or Missing}_{GPT Completion}_{DateTime}.csv}`に各問題の推論結果や正解、推論に使った部屋の経路やアクション一覧などの情報が記載されたcsvが出力されます。
-`python generate_movie_list.py`によりactivity名と動画のパスの割り当てを記述するファイル`mp4_files_list.txt`を生成  
-`python inference.py`によりscene1、scene2のQ1/MultiChoiceの問題を推論(結果の標準出力はresult.txtに示している)
+inference.pyを実行すると`./outputs/{question}_{Complete or Missing}_{GPT Completion}_{DateTime}.csv}`に各問題の推論結果や正解、推論に使った部屋の経路やアクション一覧などの情報が記載されたcsvが出力されます。  
+このcsvの分析に`analyze_csv.py`がが利用でき、  
+`python analyze_csv.py --mode compare --input_files ./outputs/file1.csv ./outputs/file2.csv ./output/file3.csv`のようにして事例別の比較を行ったり、`python analyze_csv.pyt --mode evaluate --input_files ./outputs/file.csv`で精度を計算することが可能  
