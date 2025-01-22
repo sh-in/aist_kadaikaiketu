@@ -50,4 +50,4 @@ inference.pyは50問だけ解くように制限されているので、全問題
 ## 分析
 inference.pyを実行すると`./outputs/{question}_{Complete or Missing}_{GPT Completion}_{DateTime}.csv}`に各問題の推論結果や正解、推論に使った部屋の経路やアクション一覧などの情報が記載されたcsvが出力されます。  
 このcsvの分析に`analyze_csv.py`がが利用でき、  
-`python analyze_csv.py --mode compare --input_files ./outputs/file1.csv ./outputs/file2.csv ./output/file3.csv`のようにして事例別の比較を行ったり、`python analyze_csv.pyt --mode evaluate --input_files ./outputs/file.csv`で精度を計算することが可能  
+`python analyze_csv.py --mode compare --input_files ./outputs/file1.csv ./outputs/file2.csv ./output/file3.csv`のようにして事例別の比較を行ったり、`python analyze_csv.py --mode evaluate --input_files ./outputs/file.csv`で精度を計算することが可能  
